@@ -1,10 +1,10 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: true
 ---
 
-# ブランチ運用ルール
+# Branch operation rules
 
-- main でなく、master ブランチを使用すること
-- 新規機能を追加する際は必要に応じてブランチを作成すること
+- Use the master branch, not the main branch
+- Create branches as necessary when adding new features

@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Terminal command execution rules
+
+When using the `run_terminal_cmd` tool, be sure to use commands that can be executed in Windows Po
+werShell.
+
+- Use PowerShell cmdlets (Get-ChildItem, Get-Content, Select-String, etc.) instead of Linux comman
+ds (ls, cat, grep, etc.)
+- You can also use PowerShell aliases (dir, type, findstr, etc.) if necessary
+- Symbols such as the pipe character (|) and redirection (>) can still be used
+- In PowerShell, environment variables use the $env prefix (e.g. $env:PATH)
